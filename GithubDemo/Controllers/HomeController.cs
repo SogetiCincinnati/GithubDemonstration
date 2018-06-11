@@ -26,5 +26,10 @@ namespace GithubDemo.Controllers
 
 			return View();
 		}
+
+		public void UnusedMethod()
+		{
+			int a = 42;
+		}
 	}
 }
